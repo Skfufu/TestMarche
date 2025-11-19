@@ -10,4 +10,4 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 async def on_ready():
     print(f"Connecté en tant que {bot.user}")
 
-bot.run("TON_TOKEN")
+bot.run("TokenDiscord")
